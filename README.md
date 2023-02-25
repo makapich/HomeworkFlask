@@ -1,4 +1,4 @@
-# HomeworkF lask
+# Homework Flask
 1. Return the contents of a file with python packages (requirements.txt):
  PATH: /requirements/ - open the requirements.txt file and return its contents
 
@@ -22,7 +22,7 @@
  r = requests.get('https://api.github.com/repos/psf/requests')
  r.json()["description"]
 
-#Home Work Flask and SQL
+# Home Work Flask and SQL
 Use SQL features first and only then python.
  Old views should be in a separate blueprint, new ones in a new one.  Don't forget to fix the old views so that they continue to work.
 
